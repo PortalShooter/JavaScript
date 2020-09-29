@@ -17,10 +17,8 @@ function guessNumber(randomNumber){
         }
         version = prompt('Попробуй еще раз');
     }
-}
-function newGame(){
     confirm('Не хотите попробовать еще раз?') ? guessNumber(randomNumber) : alert('Тогда в следующий раз');
 }
 
 guessNumber(randomNumber)
-newGame()
+
